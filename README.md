@@ -40,7 +40,17 @@
 5. **账号只在你电脑上**。没有任何中间服务器，账号密码从你本机读、请求从你本机发。
 6. **不是孤军奋战**。配套的 [xuexitong-skill](https://github.com/Han-maker-wp/xuexitong-skill) 提供完整的浏览器端能力（AI 作答、课件下载、附件上传），两者组合就是学习通全自动流水线。
 
-## 安装
+## 🤖 最省事的安装：让 AI 自己给自己装
+
+**你不需要看下面的安装教程。** 把这句话复制给你的 AI 助手（ZCode / Claude / Codex 都行）：
+
+> 帮我接入 chaoxing-mcp：https://raw.githubusercontent.com/Han-maker-wp/chaoxing-mcp/main/AGENTS.md
+
+AI 会读取这份[专门写给它的安装指南](AGENTS.md)，自动完成下载代码、装依赖、写配置、验证连通的全过程——你只需要提供账号密码，然后重启一次客户端。
+
+之后你对它说"我还有啥作业没交"就行了。装坏了也是 AI 自己修，不劳烦你。
+
+## 安装（手动版，给喜欢自己动手的人）
 
 Python 3.10+，装两个依赖：
 
@@ -62,7 +72,7 @@ pip install requests pycryptodome
 }
 ```
 
-账号也可以不写 env，改放一个 markdown 文件（详见下方"账号配置"）。
+账号也可以不写 env，改放一个 markdown 文件（详见 AGENTS.md 的"步骤 4"）。
 
 ## 工具一览
 
