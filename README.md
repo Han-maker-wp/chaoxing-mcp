@@ -1,4 +1,4 @@
-# chaoxing-mcp — 让 AI 帮你盯着学习通
+# chaoxing-mcp — 让 AI 连接你的学习通
 
 **再也不用自己一遍遍刷学习通查作业了。**
 
