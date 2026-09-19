@@ -1,0 +1,4 @@
+cookies.json
+enc_map.json
+__pycache__/
+*.log
